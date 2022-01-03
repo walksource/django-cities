@@ -1,29 +1,11 @@
 # django-cities
 
 ## Place models and worldwide place data for Django
-
-[![PyPI version](https://badge.fury.io/py/django-cities.svg)](https://badge.fury.io/py/django-cities) [![Build status](https://travis-ci.org/coderholic/django-cities.svg?branch=master)](https://travis-ci.org/coderholic/django-cities.svg?branch=master)
+Works with Django 4.
 
 ----
 
-# CURRENTLY UNMAINTAINED - contact coderholic to take over maintainership of this project #
-
 django-cities provides you with place related models (eg. Country, Region, City) and data (from [GeoNames](http://www.geonames.org/)) that can be used in your django projects.
-
-This package officially supports all currently supported versions of Python/Django:
-
-|      Python   | 3.6                 | 3.7                   | 3.8                   |
-| :------------ | ------------------- | --------------------- | --------------------- |
-| Django 1.11   | :white_check_mark:  | :white_check_mark:    | :large_blue_circle:   |
-| Django 2.2    | :white_check_mark:  | :white_check_mark:    | :white_check_mark:    |
-| Django 3.0    | :white_check_mark:  | :white_check_mark:    | :white_check_mark:    |
-| Django [master](https://github.com/django/django/archive/master.tar.gz) | :large_blue_circle: | :large_blue_circle: | :large_blue_circle: |
-
-| Key                   |                                                                     |
-| :-------------------: | :------------------------------------------------------------------ |
-| :white_check_mark:    | Officially supported, tested, and passing                           |
-| :large_blue_circle:   | Tested and passing, but not officially supported                    |
-| :x:                   | Known incompatibilities                                             |
 
 Authored by [Ben Dowling](http://www.coderholic.com), and some great [contributors](https://github.com/coderholic/django-cities/contributors).
 

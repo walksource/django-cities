@@ -14,12 +14,12 @@ def read(fname):
 
 
 setup(
-    name='django-cities',
-    version='0.6',
+    name='django-cities-legacy',
+    version='0.6.2',
     description='Place models and worldwide place data for Django',
     author='Ben Dowling',
     author_email='ben.m.dowling@gmail.com',
-    url='https://github.com/coderholic/django-cities',
+    url='https://github.com/walksource/django-cities',
     packages=find_packages(exclude=['example']),
     install_requires=[
         'django-model-utils',

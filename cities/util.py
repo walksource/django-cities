@@ -7,7 +7,7 @@ from django import VERSION as DJANGO_VERSION
 try:
     from django.utils.encoding import force_unicode as force_text
 except (NameError, ImportError):
-    from django.utils.encoding import force_text
+    from django.utils.encoding import force_str as force_text
 from django.utils.safestring import mark_safe, SafeText
 
 from .conf import CONTINENT_DATA

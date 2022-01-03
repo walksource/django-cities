@@ -4,7 +4,7 @@ from string import ascii_uppercase, digits
 try:
     from django.utils.encoding import force_unicode as force_text
 except (NameError, ImportError):
-    from django.utils.encoding import force_text
+    from django.utils.encoding import force_str as force_text
 
 from django.db import transaction
 from django.contrib.gis.db.models import PointField

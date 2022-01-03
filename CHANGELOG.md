@@ -1,5 +1,15 @@
 # Changelog #
 
+## v0.6.2 ##
+
+### Added ###
+
+- missing migration
+
+### Changed ###
+
+- compatibility with django 4
+
 ## v0.6 ##
 
 ### Added ###
